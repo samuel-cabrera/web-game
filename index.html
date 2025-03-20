@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web RSS</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Web RSS</h1>
+        <nav>
+            <ul>
+                <li><a href="blog/index.html">Blogs</a></li> <!-- Enlace a la página principal del blog -->
+                <li><a href="podcast/index.html">Podcast</a></li> <!-- Enlace a la página del podcast -->
+                <li><a href="feed/feeds.opml">Suscripción OPML</a></li> <!-- Archivo OPML para suscripción -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Últimos Artículos del Blog</h2>
+            <ul>
+                <li><a href="blog/posts/post3.html">Artículo 3</a></li> <!-- Último post -->
+                <li><a href="blog/posts/post2.html">Artículo 2</a></li>
+                <li><a href="blog/posts/post1.html">Artículo 1</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Últimos Podcasts</h2>
+            <ul>
+                <li>
+                    <audio controls>
+                        <source src="podcast/episodio1.mp3" type="audio/mpeg">
+                        Tu navegador no soporta la etiqueta de audio.
+                    </audio>
+                </li>
+                <li>
+                    <audio controls>
+                        <source src="podcast/episodio2.mp3" type="audio/mpeg">
+                        Tu navegador no soporta la etiqueta de audio.
+                    </audio>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Suscríbete:</p>
+        <ul>
+            <li><a href="feed/rss.xml">RSS del Blog</a></li>
+            <li><a href="feed/podcast.xml">RSS del Podcast</a></li>
+            <li><a href="feed/feeds.opml">Archivo OPML</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Podcast</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#destacado">Destacado</a></li>
+                <li><a href="#lista">Episodios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="destacado" class="podcast-destacado">
+            <h2>Podcast Destacado</h2>
+            <article>
+                <h3>Episodio Especial: Entrevista Exclusiva</h3>
+                <audio controls>
+                    <source src="episodio-especial.mp3" type="audio/mpeg">
+                    Tu navegador no soporta la etiqueta de audio.
+                </audio>
+                <p>Descripción del episodio especial con un invitado especial.</p>
+                <a href="episodio-especial.mp3" download>Descargar</a>
+            </article>
+        </section>
+        
+        <section id="lista" class="lista-podcasts">
+            <h2>Últimos Podcasts</h2>
+            <ul>
+                <li>
+                    <h3>Episodio 1: Introducción</h3>
+                    <audio controls>
+                        <source src="episodio1.mp3" type="audio/mpeg">
+                        Tu navegador no soporta la etiqueta de audio.
+                    </audio>
+                    <p>Descripción del episodio 1.</p>
+                    <a href="episodio1.mp3" download>Descargar</a>
+                </li>
+                <li>
+                    <h3>Episodio 2: Tema Interesante</h3>
+                    <audio controls>
+                        <source src="episodio2.mp3" type="audio/mpeg">
+                        Tu navegador no soporta la etiqueta de audio.
+                    </audio>
+                    <p>Descripción del episodio 2.</p>
+                    <a href="episodio2.mp3" download>Descargar</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Suscríbete:</p>
+        <ul>
+            <li><a href="../feed/rss.xml">RSS del Blog</a></li>
+            <li><a href="feed/podcast.xml">RSS del Podcast</a></li>
+            <li><a href="feed/feeds.opml">Archivo OPML</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
