@@ -3,41 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web RSS</title>
+    <title>GameZone - Blogs y Podcasts</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Web RSS</h1>
+        <h1>GameZone</h1>
         <nav>
             <ul>
-                <li><a href="blog/index.html">Blogs</a></li> <!-- Enlace a la página principal del blog -->
-                <li><a href="podcast/index.html">Podcast</a></li> <!-- Enlace a la página del podcast -->
-                <li><a href="feed/feeds.opml">Suscripción OPML</a></li> <!-- Archivo OPML para suscripción -->
+                <li><a href="blog/index.html">Blogs de Videojuegos</a></li>
+                <li><a href="podcast/index.html">Podcasts</a></li>
+                <li><a href="feed/feeds.opml">Suscripción OPML</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section>
-            <h2>Últimos Artículos del Blog</h2>
+            <h2>Últimos Artículos sobre Videojuegos</h2>
             <ul>
-                <li><a href="blog/posts/post3.html">Artículo 3</a></li> <!-- Último post -->
-                <li><a href="blog/posts/post2.html">Artículo 2</a></li>
-                <li><a href="blog/posts/post1.html">Artículo 1</a></li>
+                <li><a href="blog/posts/post1.html">Dark souls</a></li>
+                <img src="images/Dark_souls.jpg" alt="Vista de la ciudad de Yharnam">
+            </ul>
+            <ul>
+                <li><a href="blog/posts/noticias-eldenring.html">Bloodborne</a></li>
+                <img src="images/bloodborne.jpg" alt="Cazador en jarddín de flores, luna de sangre al fondo y la precencia de un dios maligno">
+            </ul>
+            <ul>
+                <li><a href="blog/posts/consejos-zelda.html">Diablo</a></li>
+                <img src="images/diablo.jpg" alt="Rostro de Diablo, el señor del terror">
             </ul>
         </section>
 
         <section>
-            <h2>Últimos Podcasts</h2>
+            <h2>Últimos Podcasts sobre Videojuegos</h2>
             <ul>
                 <li>
+                    <h3>El futuro de los juegos en la nube</h3>
                     <audio controls>
-                        <source src="podcast/episodio1.mp3" type="audio/mpeg">
+                        <source src="podcast/episodio3.mp3" type="audio/mpeg">
                         Tu navegador no soporta la etiqueta de audio.
                     </audio>
                 </li>
                 <li>
+                    <h3>Entrevista con desarrolladores indie</h3>
                     <audio controls>
                         <source src="podcast/episodio2.mp3" type="audio/mpeg">
                         Tu navegador no soporta la etiqueta de audio.
@@ -48,7 +57,7 @@
     </main>
 
     <footer>
-        <p>Suscríbete:</p>
+        <p>Suscríbete a nuestras actualizaciones:</p>
         <ul>
             <li><a href="feed/rss.xml">RSS del Blog</a></li>
             <li><a href="feed/podcast.xml">RSS del Podcast</a></li>
