@@ -92,3 +92,8 @@ footer a:hover {
     color: #111;
 }
 
+/* Quitar puntos en las listas */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
