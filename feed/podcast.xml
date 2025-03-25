@@ -1,4 +1,4 @@
-?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
     <title>GameZone</title>
@@ -7,7 +7,26 @@
     
     <item>
         <title>Episodio 1: introducción</title>
-        
+        <link>https://samuel-cabrera.github.io/web-game/podcast/index.html</link>
+        <enclosure url="https://samuel-cabrera.github.io/web-game/podcast/audios/episodio1.mp3" length="12345678" type="audio/mpeg"/>
+        <description>En este episodio, presentamos GameZone y lo que puedes esperar de nuestro podcast.</description>
+      <pubDate>Tue, 11 Mar 2025 12:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+        <title>Episodio 2: Tema interesante</title>
+        <link>https://samuel-cabrera.github.io/web-game/podcast/index.html</link>
+        <enclosure url="https://samuel-cabrera.github.io/web-game/podcast/audios/episodio2.mp3" length="12345678" type="audio/mpeg"/>
+        <description>En este episodio, presentamos GameZone y lo que puedes esperar de nuestro podcast.</description>
+      <pubDate>Tue, 18 Mar 2025 12:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+        <title>Episodio 3: Entrevista exclusiva</title>
+        <link>https://samuel-cabrera.github.io/web-game/podcast/index.html</link>
+        <enclosure url="https://samuel-cabrera.github.io/web-game/podcast/audios/episodio3.mp3" length="12345678" type="audio/mpeg"/>
+        <description>En este episodio, presentamos GameZone y lo que puedes esperar de nuestro podcast.</description>
+      <pubDate>Tue, 18 Mar 2025 12:00:00 GMT</pubDate>
     </item>
 
   </channel>
