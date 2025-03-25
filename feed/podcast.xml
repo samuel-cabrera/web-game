@@ -1,0 +1,14 @@
+?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>GameZone</title>
+    <link>https://samuel-cabrera.github.io/web-game/index.html</link>
+    <description>Últimas noticias y actualizaciones</description>
+    
+    <item>
+        <title>Episodio 1: introducción</title>
+        
+    </item>
+
+  </channel>
+</rss>
