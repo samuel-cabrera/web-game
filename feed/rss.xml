@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>GameZone</title>
+    <link>https://samuel-cabrera.github.io/web-game/index.html</link>
+    <description>Últimas noticias y actualizaciones</description>
+    
+    <item>
+      <title>Bloodborne</title>
+      <link>https://samuel-cabrera.github.io/web-game/blog/posts/post2.html</link>
+      <description>Descripción breve de la noticia</description>
+      <pubDate>Mon, 10 Mar 2025 12:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Dark souls</title>
+      <link>https://samuel-cabrera.github.io/web-game/blog/posts/post1.html</link>
+      <description>Descripción breve de la segunda noticia</description>
+      <pubDate>Fri, 21 Mar 2025 14:00:00 GMT</pubDate>
+    </item>
+
+    <item>Diablo</item>
+    <link>https://samuel-cabrera.github.io/web-game/blog/posts/post3.html</link>
+    <description>La saga diablo un juego rpg de rol </description>
+    <pubDate>Tu, 25 Mar 2025 08:34:00 GMT</pubDate>
+
+  </channel>
+</rss>
