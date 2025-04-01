@@ -1,33 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>GameZone</title>
     <link>https://samuel-cabrera.github.io/web-game/index.html</link>
-    <description>Últimas noticias y actualizaciones</description>
+    <description>Últimas noticias y actualizaciones sobre videojuegos.</description>
+    <language>es</language>
+    <itunes:author>GameZone</itunes:author>
+    <itunes:owner>
+      <itunes:name>GameZone</itunes:name>
+      <itunes:email>contacto@gamezone.com</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>no</itunes:explicit>
     
     <item>
-        <title>Episodio 1: introducción</title>
+        <title>Episodio 1: Introducción</title>
         <link>https://samuel-cabrera.github.io/web-game/podcast/index.html</link>
+        <guid>https://samuel-cabrera.github.io/web-game/podcast/audios/episodio1.mp3</guid>
         <enclosure url="https://samuel-cabrera.github.io/web-game/podcast/audios/episodio1.mp3" length="12345678" type="audio/mpeg"/>
         <description>En este episodio, presentamos GameZone y lo que puedes esperar de nuestro podcast.</description>
-      <pubDate>Tue, 11 Mar 2025 12:00:00 GMT</pubDate>
+        <itunes:subtitle>Presentación de GameZone</itunes:subtitle>
+        <itunes:summary>En este primer episodio, hablamos sobre la temática del podcast y los temas que trataremos en futuros episodios.</itunes:summary>
+        <pubDate>Tue, 11 Mar 2025 12:00:00 GMT</pubDate>
     </item>
 
     <item>
-        <title>Episodio 2: Tema interesante</title>
+        <title>Episodio 2: Tendencias en la industria</title>
         <link>https://samuel-cabrera.github.io/web-game/podcast/index.html</link>
+        <guid>https://samuel-cabrera.github.io/web-game/podcast/audios/episodio2.mp3</guid>
         <enclosure url="https://samuel-cabrera.github.io/web-game/podcast/audios/episodio2.mp3" length="12345678" type="audio/mpeg"/>
-        <description>En este episodio, presentamos GameZone y lo que puedes esperar de nuestro podcast.</description>
-      <pubDate>Tue, 18 Mar 2025 12:00:00 GMT</pubDate>
+        <description>Exploramos las tendencias actuales en la industria del videojuego y cómo afectan a los jugadores.</description>
+        <itunes:subtitle>Novedades del sector</itunes:subtitle>
+        <itunes:summary>Un análisis sobre las últimas novedades y cambios en la industria de los videojuegos.</itunes:summary>
+        <pubDate>Tue, 18 Mar 2025 12:00:00 GMT</pubDate>
     </item>
 
     <item>
-        <title>Episodio 3: Entrevista exclusiva</title>
+        <title>Episodio 3: Entrevista exclusiva con un desarrollador</title>
         <link>https://samuel-cabrera.github.io/web-game/podcast/index.html</link>
+        <guid>https://samuel-cabrera.github.io/web-game/podcast/audios/episodio3.mp3</guid>
         <enclosure url="https://samuel-cabrera.github.io/web-game/podcast/audios/episodio3.mp3" length="12345678" type="audio/mpeg"/>
-        <description>En este episodio, presentamos GameZone y lo que puedes esperar de nuestro podcast.</description>
-      <pubDate>Tue, 18 Mar 2025 12:00:00 GMT</pubDate>
+        <description>Hablamos con un desarrollador sobre los retos de la creación de videojuegos.</description>
+        <itunes:subtitle>Charlamos con un experto</itunes:subtitle>
+        <itunes:summary>En este episodio, entrevistamos a un desarrollador y discutimos sobre su experiencia en la industria.</itunes:summary>
+        <pubDate>Tue, 25 Mar 2025 12:00:00 GMT</pubDate>
     </item>
-
   </channel>
 </rss>
