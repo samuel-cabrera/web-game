@@ -5,10 +5,10 @@
     </head>
     <body>
         <outline text="Blogs">
-            <outline type="rss" text="Blogs" xmlUrl="./rss.xml" htmlUrl="../blog/index.html"/>
+            <outline type="rss" text="Blogs" xmlUrl="https://samuel-cabrera.github.io/web-game/feed/rss.xml" htmlUrl="../blog/index.html"/>
         </outline>
         <outline text="Podcasts">
-            <outline type="rss" text="Podcast" xmlUrl="./podcast.xml" htmlUrl="../podcast/index.html"/>
+            <outline type="rss" text="Podcast" xmlUrl="https://samuel-cabrera.github.io/web-game/feed/podcast.xml" htmlUrl="../podcast/index.html"/>
         </outline>
     </body>
 </opml>
